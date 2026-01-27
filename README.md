@@ -11,18 +11,19 @@ tags:
 - fiftyone
 - image-classification
 - video
-dataset_summary: '
+dataset_summary: >
 
 
 
 
-  This is a [FiftyOne](https://github.com/voxel51/fiftyone) dataset with 691 samples.
+  This is a [FiftyOne](https://github.com/voxel51/fiftyone) dataset with 691
+  samples.
 
 
   ## Installation
 
 
-  If you haven''t already, install FiftyOne:
+  If you haven't already, install FiftyOne:
 
 
   ```bash
@@ -44,7 +45,7 @@ dataset_summary: '
 
   # Load the dataset
 
-  # Note: other available arguments include ''max_samples'', etc
+  # Note: other available arguments include 'max_samples', etc
 
   dataset = load_from_hub("Voxel51/Safe_and_Unsafe_Behaviours")
 
@@ -54,8 +55,7 @@ dataset_summary: '
   session = fo.launch_app(dataset)
 
   ```
-
-  '
+license: cc-by-4.0
 ---
 
 # Dataset Card for safe_unsafe_behaviours
@@ -98,8 +98,7 @@ session = fo.launch_app(dataset)
 A high-resolution video dataset of safe and unsafe workplace behaviors collected from security cameras at a production facility, designed for occupational accident prevention research. The dataset contains 691 video clips capturing 8 behavior classes (4 safe, 4 unsafe) that represent common safety compliance scenarios in industrial environments including walkway violations, unauthorized equipment interventions, panel cover states, and forklift load compliance.
 
 - **Curated by:** Oğuzhan Önal and Emre Dandıl, Department of Computer Engineering, Faculty of Engineering, Bilecik Şeyh Edebali University, Bilecik, Turkey
-- **Funded by [optional]:** [More Information Needed]
-- **Shared by [optional]:** Kafaoğlu Metal Plastik Makine San. ve Tic. A.Ş., Eskişehir, Turkey
+- **Shared by:** Kafaoğlu Metal Plastik Makine San. ve Tic. A.Ş., Eskişehir, Turkey
 - **Language(s) (NLP):** en
 - **License:** CC BY 4.0
 
@@ -107,7 +106,6 @@ A high-resolution video dataset of safe and unsafe workplace behaviors collected
 
 - **Repository:** https://data.mendeley.com/datasets/xjmtb22pff/1
 - **Paper:** https://www.sciencedirect.com/science/article/pii/S235234092400756X
-- **Demo [optional]:** [More Information Needed]
 
 ## Uses
 
